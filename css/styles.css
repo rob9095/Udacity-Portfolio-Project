@@ -165,7 +165,10 @@ header a.contact-me:hover {
 @media (max-width: 600px) {
 	.hero {
 		padding: 30px 20px;
-		min-height: 100%;
+		justify-content: space-between;
+	}
+	.down-arrow {
+		margin-top: 40px;
 	}
 }
 
@@ -317,9 +320,12 @@ li.project-tile {
 
 li.project-tile:hover {
 	transition: 0.2s ease;
-    cursor: pointer;
     opacity: .8;
     border: 3px solid #009688;
+}
+
+li.project-tile .project-details:hover: {
+	cursor: pointer;
 }
 
 .skills-wrapper {
