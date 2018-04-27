@@ -311,6 +311,22 @@ span.project-details {
 	font-weight: bold;
 }
 
+li.project-tile.pixel {
+	background-image: url(../img/pixel-project.png);
+}
+
+li.project-tile.todo {
+	background-image: url(../img/todos.png);
+}
+
+li.project-tile.warbler {
+	background-image: url(../img/warbler.png);
+}
+
+li.project-tile.yearbook {
+	background-image: url(../img/yearbook-homepage.png);
+}
+
 li.project-tile {
     display: flex;
     flex-direction: column;
